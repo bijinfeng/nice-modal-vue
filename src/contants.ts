@@ -1,5 +1,7 @@
 import type { AllowedComponentProps, Component, VNodeProps } from "vue";
 
+export type AnyFn = (...args: any[]) => any;
+
 export interface NiceModalHocProps {
 	id: string;
 }
