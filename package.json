@@ -1,18 +1,19 @@
 {
-	"name": "tsdown-starter",
-	"version": "0.0.0",
-	"description": "A starter for creating a TypeScript package.",
+	"name": "@pingtou/nice-modal-vue",
+	"version": "0.0.1",
+	"description": "Utility library that converts Vue.js modal components into a Promise-based API.",
 	"type": "module",
 	"license": "MIT",
-	"homepage": "https://github.com/author/library#readme",
+	"packageManager": "pnpm@10.17.0",
+	"homepage": "https://github.com/bijinfeng/nice-modal-vue#readme",
 	"bugs": {
-		"url": "https://github.com/author/library/issues"
+		"url": "https://github.com/bijinfeng/nice-modal-vue/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/author/library.git"
+		"url": "git+https://github.com/bijinfeng/nice-modal-vue.git"
 	},
-	"author": "Author Name <author.name@mail.com>",
+	"author": "bijinfeng <bijinfeng1016@gmail.com>",
 	"files": [
 		"dist"
 	],
