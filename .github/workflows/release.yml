@@ -23,12 +23,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
+          registry-url: https://registry.npmjs.org/
 
       - run: pnpm dlx changelogithub
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-      - run: pnpm install
+      - name: Install
+        run: pnpm install
+
       - run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
