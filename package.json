@@ -1,6 +1,6 @@
 {
 	"name": "@pingtou/nice-modal-vue",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Utility library that converts Vue.js modal components into a Promise-based API.",
 	"type": "module",
 	"license": "MIT",
