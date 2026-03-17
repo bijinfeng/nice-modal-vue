@@ -137,3 +137,25 @@ export function antdDrawer(modal: ReturnType<typeof useModal>) {
 		},
 	};
 }
+
+export function elementDialog(modal: ReturnType<typeof useModal>) {
+	return {
+		"model-value": modal.visible,
+		onClose: () => modal.hide(),
+		onClosed: () => {
+			modal.resolveHide();
+			modal.remove();
+		},
+	};
+}
+
+export function elementDrawer(modal: ReturnType<typeof useModal>) {
+	return {
+		"model-value": modal.visible,
+		onClose: () => modal.hide(),
+		onClosed: () => {
+			modal.resolveHide();
+			modal.remove();
+		},
+	};
+}

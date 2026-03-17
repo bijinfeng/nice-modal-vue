@@ -73,7 +73,7 @@ const handleConfirm = () => {
 
 ```js
 // my-modal.js
-import { NiceModal } from '@pingtou/nice-modal-vue'
+import NiceModal from '@pingtou/nice-modal-vue'
 import _MyModal from './my-modal.vue'
 
 export const MyModal = NiceModal.create(_MyModal)
